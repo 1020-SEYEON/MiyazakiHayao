@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    }
+    a:link{color: white;}
+    a:hover{color: #297169;}
+    a:active{color: white;}
+    a:visited{color: white;}
+
+    header{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        height: 100px;
+        background-color: #129CEB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul{
+        width: 1100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li{
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li a{
+        display: block;
+        width: 220px;
+        text-align: center;
+        font-family: 'VitroCore';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
+section{
+    background-color: #297169;
+    height: 240px;
+    text-align: center;
+    font-family: 'VitroPride';
+    font-weight: normal;
+    font-style: normal;
+    color: #161824;
+    }
+    
+    h1{font-size: 60px;}
+    h2{font-size: 22px;}
+    h3{font-size: 22px;}
+
+    .wrap{text-align: center;
+    margin-top: 153px;}
+    .wrap ul{margin-bottom: 216px;}
+
+    footer{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #129CEB;}
